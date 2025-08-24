@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Reel Vision</title>
+  <link rel="stylesheet" href="aboutstyles.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');
+
+    .about-section,
+    .mission {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+      text-align: center;
+      background-color: #111;
+    }
+    h1, h2 {
+      font-family: 'Dongle', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-align: center;
+      color: #ff5555;
+      text-shadow: 0 0 8px rgba(255, 85, 85, 0.3);
+    }
+
+    .about-section p {
+      font-size: 22px;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .mission p {
+      font-size: 22px;
+      max-width: 900px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+      color: #ccc;
+      text-align: center ;
+    }
+
+    .team-section {
+      padding: 50px 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .team-section h2 {
+      font-size: 3rem;
+      margin-bottom: 30px;
+      color: #ff5555;
+      margin: 0 auto 30px auto;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 40px;
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .team-card {
+      background-color: #222;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .team-card:hover {
+      box-shadow: 0 0 15px rgba(255, 85, 85, 0.2);
+    }
+
+    footer {
+      background-color: #111;
+      color: #ccc;
+      text-align: left;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="Main-Nav">
+        <a href="homepage.html"><img src="reelvision.png"></a>
+        <a href="movielist.html">Movie List</a>
+        <a href="about.html#about">About</a>
+        <a href="contact.html#contacts">Contacts</a>
+        <div class="search-wrapper">
+             <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+             <button class="search-button" id="search-button">Search</button>
+         </div>
+            </nav>
+  </header>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <h1>🎬 About Reel Vision</h1>
+    <p>
+      Reel Vision is your go-to movie recommendation platform, bringing you the latest hits and timeless classics. 
+      Whether you're chasing cult favorites or box office blockbusters, our mission is to help every film lover discover their next must-watch movie.
+    </p>
+    <p>
+      Built by a passionate team of movie enthusiasts and developers, Reel Vision offers a sleek, intuitive experience. Explore, search, and enjoy films from every genre all in one place, effortlessly.
+    </p>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="mission">
+    <h2>🎯 Our Mission</h2>
+    <p>To guide movie lovers on a journey through unforgettable films, where every recommendation opens a door to magic and imagination.</p>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section">
+    <h2>👥 Meet the Team</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <h3>Tamil Selvi</h3>
+      </div>
+      <div class="team-card">
+        <h3>Nurul Amierah</h3>
+      </div>
+      <div class="team-card">
+        <h3>Nur Athirah</h3>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider" />
+  <div class="loader" id="loader"></div>
+
+  <footer>
+    <p>&copy; 2025 ReelVision Entertainment</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

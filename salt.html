@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Description</title>
+    <link rel="stylesheet" href="synopsis1style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');</style>
+</head>
+
+<body>
+    <!-- main nav bar-->
+    <header>
+        <nav class="Main-Nav">
+        <a href="homepage.html"><img src="reelvision.png"></a>
+        <a href="movielist.html">Movie List</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contacts</a>
+        <div class="search-wrapper">
+            <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+            <button class="search-button" id="search-button">Search</button>
+        </div>
+        
+        </nav>
+    </header>
+
+    <!-- Movie Synopsis Section -->
+    <section class="synopsis-section">
+        <div class="movie-poster">
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/52/Salt_film_theatrical_poster.jpg">
+        </div>
+        <div class="movie-description">
+            <h1>Salt</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QZ40WlshNwU" title="Alita: Battle Angel Trailer" frameborder="0" allowfullscreen></iframe>
+            <p>Genres: #Political Thriller#Action#Spy</p>
+            <p>Actors:#Angelina Jolie, #Liev Schreiber, #Chiwetel Ejiofor</p>
+            <p>Year: 2010</p>
+            <p>
+                CIA agent Evelyn Salt's life takes an ugly turn when she is accused of planning the assassination of the Russian president. However, she flees and sets out to prove her innocence.
+            </p>
+        </div>
+    </section>
+
+    <!-- Suggestions Section -->
+    <section class="suggestions-section">
+        <h2>You Might Also Like</h2>
+        <div class="suggested-movies">
+            <div class="suggested-movie">
+                <a href="inception.html"><img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg" alt="Inception Poster"></a>
+                <h3>Inception</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="social.html"><img class="movie-poster" src="https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png"></a>
+                <h3>The Social Network</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="deadpool.html"><img class= movie-poster src="https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a>
+                <h3>Deadpool & Wolverine</h3>
+            </div>
+        </div>
+    </section>
+    <div class="loader" id="loader"> </div>
+
+    <footer>
+        <p>&copy; 2025 ReelVision Entertainment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

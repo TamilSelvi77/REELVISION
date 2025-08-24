@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List Page</title>
+    <link rel="stylesheet" href="NotFoundStyle.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');</style>
+</head>
+
+<body>
+    <header>
+        <nav class="Main-Nav">
+            <a href="homepage.html"><img src="reelvision.png"></a>
+            <a href="movielist.html">Movie List</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contacts</a>
+            <div class="search-wrapper">
+                <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+                <button class="search-button" id="search-button">Search</button>
+            </div>
+            
+            </nav>
+    </header>
+    <main>
+        <!-- Main text-->
+        <h1> Sorry, We could not find what you were looking for.</h1>
+        <hr>
+        <h3>The content might have been removed or not exist in our database.  </h3>
+        
+    <!-- lottie not found animation-->
+        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+        <dotlottie-player id="player" src="https://lottie.host/ad5ee825-774f-4a70-af09-5e97fbfed7c2/66jYxRSJsH.lottie" background="transparent" speed="1.5" style="width: 500px; height: 500px;margin: 0 auto" loop autoplay></dotlottie-player>
+        <!---->
+        <h4>Go back to home</h4>
+
+<a href="homepage.html" ><img src= "reelvision.png"></a>
+    </main>
+    <div class="loader" id="loader"> </div>
+    <footer>
+        <p>&copy; 2025 ReelVision Entertainment</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

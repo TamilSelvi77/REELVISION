@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Description</title>
+    <link rel="stylesheet" href="synopsis1style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');</style>
+</head>
+
+<body>
+    <!-- main nav bar-->
+    <header>
+        <nav class="Main-Nav">
+        <a href="homepage.html"><img src="reelvision.png"></a>
+        <a href="movielist.html">Movie List</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contacts</a>
+        <div class="search-wrapper">
+            <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+            <button class="search-button" id="search-button">Search</button>
+        </div>
+        
+        </nav>
+    </header>
+
+    <!-- Movie Synopsis Section -->
+    <section class="synopsis-section">
+        <div class="movie-poster">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/ee/Alita_Battle_Angel_%282019_poster%29.png" alt="Alita: Battle Angel Poster">
+        </div>
+        <div class="movie-description">
+            <h1>Alita: Battle Angel</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/w7pYhpJaJW8" title="Alita: Battle Angel Trailer" frameborder="0" allowfullscreen></iframe>
+            <p>Genres: #Sci-fi#Cyberpunk#Adventure</p>
+            <p>Actors:#Rosa Salazar, #Christoph Waltz, #Jennifer Connelly</p>
+            <p>Year: 2019</p>
+            <p>
+                In the year 2563, a female cyborg is discovered in a scrapyard by a scientist. 
+                He brings her back to life, but she has no memory of her past. As she learns 
+                about her identity, she discovers her unique fighting abilities and embarks on a 
+                journey to uncover her past while facing powerful enemies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Suggestions Section -->
+    <section class="suggestions-section">
+        <h2>You Might Also Like</h2>
+        <div class="suggested-movies">
+            <div class="suggested-movie">
+                <a href="pacific.html"><img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg" alt="Pacific Rim Poster"></a>
+                <h3>Pacific Rim</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="blade.html"><img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png" alt="Blade Runner 2049 Poster"></a>
+                <h3>Blade Runner 2049</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="inception.html"><img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg" alt="Inception Poster"></a>
+                <h3>Inception</h3>
+            </div>
+        </div>
+    </section>
+    <div class="loader" id="loader"> </div>
+
+    <footer>
+        <p>&copy; 2025 ReelVision Entertainment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

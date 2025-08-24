@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Home Page</title>
+    <link rel="stylesheet" href="homepagestyle.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');</style>
+    <script>
+  // check login before showing homepage
+  if (localStorage.getItem("loggedIn") !== "true") {
+    window.location.href = "login.html";
+  }
+</script>
+</head>
+
+<body>
+    <!-- main nav bar-->
+    <header>
+        <nav class="Main-Nav">
+        <a href="homepage.html"><img src="reelvision.png"></a>
+        <a href="movielist.html">Movie List</a>
+        <a href="about.html#about">About</a>
+        <a href="contact.html#contacts">Contacts</a>
+        <div class="search-wrapper">
+             <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+             <button class="search-button" id="search-button">Search</button>
+         </div>
+            </nav>
+    </header>
+    
+    <section class="hero">
+    <div class="hero-content">
+        <a href="harrypotter.html"><h1>Harry Potter and the Order of the Phoenix</h1>
+        <p>With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.</p>
+        <div class="netflix-badge">Fantasy, Magic, Adventure</div>
+        <div class="netflix-badge">2007, 2h18m</div>
+    </a>
+        <a href="https://www.youtube.com/embed/LLAaW1EgyY8" target="_blank">
+    <button class="watch-button">Watch Trailer ►</button>
+    </a>
+
+    </div>
+    </section>
+
+    <section class="popular-section">
+     <h2>Popular</h2>
+     <div class="movies-grid">
+        <div class="movie-card">
+            <a href="myoxfordyear.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BMWU0YTc0OWYtOWJjNy00ZDYzLWFlMTItMGZkNzM4YjQ5OWQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="My Oxford Year">
+                <div class="movie-rank">#9</div>
+                <div class="movie-info">
+                    <h3>My Oxford Year</h3>
+                    <p>Romance, 2025</p>
+                </div>
+            </a>    
+        </div>
+        
+        <div class="movie-card">
+            <a href="thelifelist.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjNhNzUyMTQtYTFiZS00NzM2LWI3YTgtZmI1ZTA1MDUzMzBhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Life List">
+                <div class="movie-rank">#12</div>
+                <div class="movie-info">
+                    <h3>The Life List</h3>
+                    <p>Romance, 2025</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="movie-card">
+            <a href="fantasticbeast.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BZjJmNDc3NTMtZjU4Yy00N2FkLTljYWEtMGZlOTA4ODcwNTc3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Fantastic Beasts: The Secrets of Dumbledore">
+                <div class="movie-rank">#3</div>
+                <div class="movie-info">
+                    <h3>Fantastic Beasts: The Secrets of Dumbledore</h3>
+                    <p>Fantasy, 2022</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="movie-card">
+            <a href="thecircle.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjY2OTM2Njc3Ml5BMl5BanBnXkFtZTgwNDgzODU3MTI@._V1_.jpg" alt="The Circle">
+                <div class="movie-rank">#20</div>
+                <div class="movie-info">
+                    <h3>The Circle</h3>
+                    <p>Thriller, 2017</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="movie-card">
+            <a href="lalaland.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg" alt="La La Land">
+                <div class="movie-rank">#15</div>
+                <div class="movie-info">
+                    <h3>La La Land</h3>
+                    <p>Musical, 2016</p>
+                </div>
+            </a>
+        </div>
+        
+        
+        <div class="movie-card">
+            <a href="showman.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjI1NDYzNzY2Ml5BMl5BanBnXkFtZTgwODQwODczNTM@._V1_.jpg" alt="The Greatest Showman">
+                <div class="movie-rank">#7</div>
+                <div class="movie-info">
+                    <h3>The Greatest Showman</h3>
+                    <p>Musical, 2017</p>
+                </div>
+            </a>
+        </div>
+      </div>  
+    </section>
+    
+    <hr class="section-divider">
+    <div class="loader" id="loader"> </div>
+    </main>
+   
+    <footer>
+        <p>&copy; 2025 ReelVision Entertainment</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>

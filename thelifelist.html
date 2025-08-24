@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Description</title>
+    <link rel="stylesheet" href="synopsis1style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');</style>
+</head>
+
+<body>
+    <!-- main nav bar-->
+    <header>
+        <nav class="Main-Nav">
+        <a href="homepage.html"><img src="reelvision.png"></a>
+        <a href="movielist.html">Movie List</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contacts</a>
+        <div class="search-wrapper">
+            <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+            <button class="search-button" id="search-button">Search</button>
+        </div>
+        
+        </nav>
+    </header>
+
+    <!-- Movie Synopsis Section -->
+    <section class="synopsis-section">
+        <div class="movie-poster">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjNhNzUyMTQtYTFiZS00NzM2LWI3YTgtZmI1ZTA1MDUzMzBhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+        </div>
+        <div class="movie-description">
+            <h1>The Life List</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nldAfgJrBr8" title="The Life List Trailer" frameborder="0" allowfullscreen></iframe>
+            <p>Genres: Romance, Comedy</p>
+            <p>Actors: Sofia Carson, Kyle Allen, Sebastian De Souza</p>
+            <p>Year: 2025</p>
+            <p>
+                A woman revisits her childhood aspirations, endeavoring to achieve her old goals, only to discover that pursuing these lifelong dreams takes her on an unforeseen and surprising journey.
+    </section>
+
+    <!-- Suggestions Section -->
+    <section class="suggestions-section">
+        <h2>You Might Also Like</h2>
+        <div class="suggested-movies">
+            <div class="suggested-movie">
+                <a href="untildawn.html"><img src="https://m.media-amazon.com/images/M/MV5BZWU4NDY0ODktOGI3OC00NWE1LWIwYmQtNmJiZWU3NmZlMDhkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"></a>
+                <h3>Unti Dawn</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="evildeadrise.html"><img class="movie-poster" src="https://i.ebayimg.com/images/g/ipkAAOSwYThjyI3C/s-l1600.webp"></a>
+                <h3>Evil Dead Rise</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="showman.html"><img class= movie-poster src="https://m.media-amazon.com/images/M/MV5BMjI1NDYzNzY2Ml5BMl5BanBnXkFtZTgwODQwODczNTM@._V1_.jpg"></a>
+                <h3>The Greatest Showman</h3>
+            </div>
+        </div>
+    </section>
+    <div class="loader" id="loader"> </div>
+
+    <footer>
+        <p>&copy; 2025 ReelVision Entertainment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

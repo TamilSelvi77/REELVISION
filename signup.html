@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - Reel Vision</title>
+  <link rel="stylesheet" href="authstyle.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+  </style>
+</head>
+<body>
+  <div class="auth-container">
+    <div class="auth-box">
+      <!-- logo inside the box -->
+      <img src="reelvision.png" alt="Reel Vision Logo" class="logo" />
+
+      <h2>Sign Up</h2>
+      <form onsubmit="signupUser(event)">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <input type="password" placeholder="Confirm Password" required />
+        <button type="submit">Sign Up</button>
+        <p class="switch">Already have an account? <a href="login.html">Login</a></p>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function signupUser(event) {
+      event.preventDefault();
+      localStorage.setItem("loggedIn", "true");
+      window.location.href = "homepage.html";
+    }
+  </script>
+</body>
+</html>
