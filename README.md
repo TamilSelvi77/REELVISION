@@ -5,7 +5,7 @@ This project was created for **educational purposes only** as part of a coursewo
 
 
 ## **BUILT WITH**
-![Image](https://github.com/user-attachments/assets/48295c1c-8c6a-494b-aa06-4ab3c4332849)
+![Image](https://github.com/user-attachments/assets/7cb534b1-7c38-4ead-9880-3ede291588df)
 
 
 ## **CREDITS** 
