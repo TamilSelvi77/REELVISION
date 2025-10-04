@@ -4,10 +4,6 @@ A simple movie recommendation website built using HTML, CSS, and JavaScript for 
 This project was created for **educational purposes only** as part of a coursework assignment. It is **not intended for commercial use**.
 
 
-## **BUILT WITH**
-![Image](https://github.com/user-attachments/assets/7cb534b1-7c38-4ead-9880-3ede291588df)
-
-
 ## **CREDITS** 
 Movie images and related data are sourced from **IMDb** (https://www.imdb.com/), **Wikimedia** (https://commons.wikimedia.org/wiki/Main_Page).
 
