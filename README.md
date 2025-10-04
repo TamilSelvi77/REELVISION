@@ -5,7 +5,7 @@ This project was created for **educational purposes only** as part of a coursewo
 
 
 ## **CREDITS** 
-Movie images and related data are sourced from **IMDb** (https://www.imdb.com/)
+Movie images and related data are sourced from **IMDb** (https://www.imdb.com/), **Wikimedia** (https://commons.wikimedia.org/wiki/Main_Page).
 
 
 ## **DISCLAIMERR**
